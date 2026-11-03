@@ -1,0 +1,166 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+header {
+    background-color: #205276;
+    color: white;
+    text-align: center;
+}
+
+#titulo-curso {
+    display: block;
+    padding: 12px;
+    font-size: 1.3rem;
+}
+
+
+nav {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    background-color: #333;
+    padding: 7px;
+}
+
+nav a {
+    color: white;
+    text-decoration: none;
+    padding: 0 15px;
+    font-size: 1rem;
+}
+
+main {
+    max-width: 960px;
+    margin: 20px auto 15px;
+}
+
+.cards{
+    display: grid;
+    grid-template-columns: 2fr 1fr;
+    gap: 10px;
+}
+
+h1 {
+    text-align: center;
+    font-size: 2rem;
+    font-weight: normal;
+    margin-bottom: 15px;
+}
+
+
+.card-sobre h2 {
+    background-color: #205276;
+    color: white;
+    text-align: center;
+    font-size: 1.1rem;
+    padding: 8px;
+}
+
+.card-sobre h3 {
+    text-align: center;
+    font-size: 1.1rem;
+    padding: 4px;
+   
+}
+
+
+.card-recursos h2 {
+    background-color: #205276;
+    color: white;
+    text-align: center;
+    font-size: 1.1rem;
+    padding: 8px;
+
+}
+.card-sobre,
+.card-recursos {
+    border: 1px solid #aaa;
+    border-radius: 8px;
+    overflow: hidden;
+}
+
+.apresentacao {
+    display: flex;
+    align-items: flex-start;
+    gap: 20px;
+    padding: 15px;
+}
+
+.apresentacao img {
+    order: 2;
+    width: 120px;
+    height: auto;
+    flex-shrink: 0;
+}
+
+.apresentacao p {
+    order: 1;
+}
+
+.informacao-estado {
+    display: flex;
+    align-items: center;
+    gap: 20px;
+    padding: 15px 20px;
+}
+
+.informacao-estado figure {
+    flex: 0 0 170px;
+    text-align: center;
+}
+
+.informacao-estado figure img {
+    width: 100%;
+    height: auto;
+}
+
+.informacao-estado p {
+    flex: 1;
+    line-height: 1.6;
+    text-align: left;
+}
+
+.card-sobre h3 {
+    text-align: center;
+    position: relative;
+    padding-bottom: 8px;
+    margin: 15px 20px;
+}
+
+.card-sobre h3::after {
+    content: "";
+    display: block;
+    width: 70%;
+    height: 1px;
+    background-color: #ccc;
+    margin: 8px auto 0;
+}
+
+.card-recursos ul {
+    padding-left: 40px;
+    padding-top: 100px;
+    padding-bottom: 20px;
+}
+
+.card-recursos li {
+    padding-bottom: 5px;
+}
+
+footer {
+    background-color: #205276;
+    color: white;
+    text-align: center;
+    padding: 15px;
+    margin-top: 15px;
+}
+
+#ultimaModificacao {
+    color: yellow;
+}
