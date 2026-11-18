@@ -7,7 +7,7 @@
 }
 
 body {
-    font-family: Arial, sans-serif;
+    font-family: 'Roboto', sans-serif;
     max-width: 1200px;
     margin: 0 auto;
 }
@@ -64,6 +64,13 @@ nav a {
     color: white;
     text-decoration: none;
     display: block;
+}
+
+nav a:hover {
+    color: #ffd700;
+    background-color: #5b1685;
+    text-decoration: underline;
+    transition: 0.3s;
 }
 
 /* Botão de fechar */
