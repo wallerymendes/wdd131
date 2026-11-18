@@ -1,0 +1,43 @@
+
+@media screen and (min-width: 700px) {
+
+    header {
+        flex-wrap: nowrap;
+    }
+
+    .menu-button {
+        display: none;
+    }
+
+    nav {
+        display: block;
+        width: auto;
+    }
+
+    nav ul {
+        display: flex;
+        align-items: center;
+        gap: 25px;
+    }
+
+    nav li {
+        padding: 0;
+    }
+
+    main {
+        padding: 20px 10%;
+    }
+
+    .temple-gallery {
+        grid-template-columns: repeat(3, 1fr);
+        gap: 15px;
+    }
+
+    figure img {
+        width: 100%;
+        aspect-ratio: 16 / 9;
+        object-fit: cover;
+    }
+}
+
+
