@@ -1,0 +1,106 @@
+
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <meta name="description" content="Descobrindo o Brasil, sua localização, cultura, clima .">
+
+    <meta name="author" content="Wallery Mendes ">
+
+    <title>Brasil | Página do País</title>
+
+    <link rel="stylesheet" href="estilos/local.css">
+    <script src="scripts/local.js" defer></script>
+</head>
+
+<body>
+
+    <header>
+        <h1>Brasil</h1>
+    </header>
+
+    <main>
+
+        <div class="hero">
+            <picture>
+                <source
+                    media="(max-width: 500px)"
+                    srcset="imagens/brasil-small.webp">
+
+                <img
+                    src="imagens/brasil-large.webp"
+                    alt="Cristo Redentor, Rio de Janeiro, Brasil">
+            </picture>
+        </div>
+
+        <section class="data">
+            <h2>Dados</h2>
+
+            <div class="info">
+                <span>Área:</span>
+                <span>8.510.417,771 km²</span>
+
+                <span>População:</span>
+                <span>214.211.951 habitantes</span>
+
+                <span>Capital:</span>
+                <span>Brasília</span>
+
+                <span>Lingua:</span>
+                <span>Português</span>
+
+                <span>Moeda:</span>
+                <span>Real</span>
+
+                <span>Continente:</span>
+                <span>America do Sul</span>
+
+                <span>Fuso horário:</span>
+                <span>UTC-3 (Brasília)</span>
+
+                <span>Codigo de chamada:</span>
+                <span>+55</span>
+
+                <span>Internet TLD:</span>
+                <span>.br</span>
+            </div>
+        </section>
+
+        <section class="clima">
+            <h2>Clima</h2>
+
+            <img
+                src="imagens/partly_cloudy.svg"
+                alt="Icone parcialmente nublado"
+                class="icone-clima">
+
+            <div class="info">
+                <span>Temperatura:</span>
+                <span id="temperatura">35°C</span>
+
+                <span>Condições climáticas:</span>
+                <span>Parcialmente nublado</span>
+
+                <span>Vento:</span>
+                <span id="Vento-velocidade">08 km/h</span>
+
+                <span>Sensação térmica:</span>
+                <span id="sensacao-termica">35°C</span>
+            </div>
+        </section>
+
+    </main>
+
+      <footer>
+         <p>
+            &copy;<span id="anoatual"></span>
+            🌸 Wallery Trhysha Barbosa Mendes 🌸 Brasil
+        </p>
+
+        <p id="ultima-modificacao"></p>
+   </footer>
+
+</body>
+</html>
