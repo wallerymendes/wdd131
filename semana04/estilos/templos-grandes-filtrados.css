@@ -1,0 +1,58 @@
+
+/* TELAS GRANDES */
+
+
+@media screen and (min-width: 700px) {
+
+    main {
+        padding: 20px 2%;
+    }
+
+    .res-grid {
+        grid-template-columns: repeat(3, 1fr);
+    }
+
+
+
+    /* CABEÇALHO */
+
+    header {
+        flex-wrap: nowrap;
+    }
+
+    .menu-button {
+        display: none;
+    }
+
+    nav {
+        display: block;
+        width: auto;
+    }
+
+    nav ul {
+        display: flex;
+        align-items: center;
+        gap: 25px;
+    }
+
+    nav li {
+        padding: 0;
+    }
+
+    /* CONTEÚDO */
+
+    main {
+        padding: 20px 4%;
+    }
+
+    /* GALERIA */
+
+
+
+    /* CARTÕES */
+
+    .res-grid section {
+        width: 100%;
+        min-width: 0;
+    }
+}

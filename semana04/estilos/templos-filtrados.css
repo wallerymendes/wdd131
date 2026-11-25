@@ -1,0 +1,157 @@
+
+/* CONFIGURAÇÕES GERAIS */
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Roboto', sans-serif;
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+/* CABEÇALHO */
+
+header {
+    background-color: #3b075f;
+    color: white;
+    padding: 15px;
+
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+
+header h1 {
+    font-size: 1.3rem;
+}
+
+.menu-button {
+    background: none;
+    border: none;
+    color: white;
+    font-size: 1.8rem;
+    cursor: pointer;
+}
+
+.close {
+    display: none;
+}
+
+/* MENU */
+
+nav {
+    display: none;
+    width: 100%;
+}
+
+nav.open {
+    display: block;
+}
+
+nav ul {
+    list-style: none;
+    text-align: center;
+}
+
+nav li {
+    padding: 12px;
+}
+
+nav a {
+    color: white;
+    text-decoration: none;
+    display: block;
+}
+
+nav a:hover {
+    color: #ffd700;
+    background-color: #5b1685;
+    text-decoration: underline;
+    transition: 0.3s;
+}
+
+/* BOTÃO DE FECHAR */
+
+header.menu-open .hamburger {
+    display: none;
+}
+
+header.menu-open .close {
+    display: inline;
+}
+
+/* CONTEÚDO */
+
+main {
+    padding: 20px 10px;
+}
+
+main h2 {
+    text-align: center;
+    margin-bottom: 20px;
+    font-size: 1.2rem;
+}
+
+/* GALERIA */
+
+.res-grid {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 20px;
+}
+
+/* CARTÕES */
+
+.res-grid section {
+    width: 100%;
+    min-width: 0;
+    background-color: #eeeeee;
+    border: 1px solid #d5d5d5;
+    padding: 18px;
+    text-align: center;
+    overflow: hidden;
+}
+
+/* TÍTULOS DOS TEMPLOS */
+
+.res-grid section h3 {
+    font-size: 1.1rem;
+    margin-bottom: 12px;
+}
+
+.res-grid section p {
+    color: #35105d;
+    font-size: 0.85rem;
+    margin: 5px 0;
+}
+
+/* IMAGENS */
+
+.res-grid section img {
+    width: 90%;
+    height: 200px;
+    object-fit: cover;
+    object-position: center;
+    display: block;
+    margin: 15px auto 0;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.90);
+}
+
+/* RODAPÉ */
+
+footer {
+    background-color: #3b075f;
+    color: white;
+    text-align: center;
+    padding: 12px;
+    font-size: 0.8rem;
+}
+
+footer p {
+    margin: 5px;
+}
